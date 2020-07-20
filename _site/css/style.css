@@ -119,15 +119,19 @@ ul {
   .links .fa-facebook:hover {
     color: #365899; }
   .links .fa-github-alt:hover {
-    color: #f6c2a4; }
+    color: #211F1F; }
   .links .fa-stack-overflow:hover {
     color: #c98b3b; }
   .links .fa-instagram:hover {
     color: #cd486b; }
   .links .fa-reddit-alien:hover {
-    color: #cee3f8; }
+    color: #FF5700; }
   .links .fa-rss:hover {
-    color: #eea33a; }
+    color: #ee802f; }
+  .links .fa-envelope:hover {
+    color: #215A6D; }
+  .links .fa-envelope-square:hover {
+    color: #969696; }
 
 /* Index */
 .index {

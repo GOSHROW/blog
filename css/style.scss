@@ -10,11 +10,11 @@ $linkedin:       #2b77b1;
 $xing:           #006567;
 $google-plus:    #c95644;
 $facebook:       #365899;
-$github:         #f6c2a4;
+$github:         #211F1F;
 $stack-overflow: #c98b3b;
 $instagram:      #cd486b;
-$reddit:         #cee3f8;
-$rss:            #eea33a;
+$reddit:         #FF5700;
+$rss:            #ee802f;
 
 $darker:         #21211E;
 $dark:           #2D2D29;
@@ -218,6 +218,14 @@ ul {
 	
 	.fa-rss:hover {
 		color: $rss;
+	}
+
+	.fa-envelope:hover {
+		color: $dark-blue;
+	}
+
+	.fa-envelope-square:hover {
+		color: $light-medium;
 	}
 }
 
