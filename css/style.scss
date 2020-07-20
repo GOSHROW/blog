@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap);
 
 /* Colours */
 $twitter:        #6dabda;
@@ -18,18 +19,19 @@ $rss:            #ee802f;
 
 $darker:         #21211E;
 $dark:           #2D2D29;
-$medium:         #3B3B35;
+$medium:         #073642;
 $light-medium:   #969696;
 $dark-blue:      #215A6D;
 $light-blue:     #3CA2A2;
 $green:          #92C7A3;
-$light:          #DFECE6;
+$light:          #ECECEC;
 $white:          #FFFFFF;
 $dark-purple:    #300030;
 $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
+$green-margin:	 #3c6562;
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -46,9 +48,9 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	background-color: $dark;
-	color: $white;
-	font-size: 16px;
+	background-image: linear-gradient( to right, black, $darker,black, $darker, black);
+	color: $light;
+	font-size: 18px;
 	height: 100%;
 	width: 100%
 }
@@ -97,21 +99,26 @@ ul {
 }
 
 .header {
+	font-family: 'Red Rose', cursive;
 	font-size: 32px;
 	text-align: center;
 	margin-top: 20px;
 	margin-left: -0%;
 	width: 100%;
-
 	@media (min-width: $screen-sm-min) {
+		margin-top: 0px;
 		font-size: 62px;
 		margin-left: -10%;
 		width: 120%;
 	}
+	@media (min-width: $screen-md-min) {
+		font-size: 60px;
+		margin-top: -20px;
+	}
 }
 
 .menu-button {
-	color: $white;
+	color: $light-medium;
 	font-size: 24px;
 	position: fixed;
 	top: 10px;
@@ -119,7 +126,7 @@ ul {
 	cursor: pointer;
 	line-height: 1em;
 	padding: 10px;
-	background-color: $dark;
+	background-color: $darker;
 	z-index: 100;
 	@media (min-width: $screen-sm-min) {
 		top: 20px;
@@ -135,7 +142,7 @@ ul {
 	padding-right: 30px;
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-blue;
+	border-bottom: 5px solid $green-margin;
 }
 
 #my-menu {
@@ -145,17 +152,17 @@ ul {
 	}
 
 	a, a:active {
-		color: $white;
+		color: $light;
 	}
 
 	a:hover {
-		color: $light-blue;
+		color: $light-medium;
 	}
 
 	.pages {
 
 		.fa {
-			margin-right: 10px;
+			margin-right: 5px;
 		}
 	}
 }
@@ -256,16 +263,16 @@ ul {
 	}
 
 	.categories {
-		font-size: 22px;
+		font-size: 24px;
 	}
 
 	.content-panel:nth-of-type(1) {
-		border-bottom: 10px solid $light-blue;
+		border-bottom: 10px solid $green-margin;
 	}
 
 	.author-header {
-		font-family: 'Montserrat', sans-serif;
-		color: $light-blue;
+		font-family: 'Red Rose', cursive;
+		color: white;
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
@@ -372,7 +379,7 @@ ul {
 	.menu {
 		margin-top: 250px;
 		margin-bottom: 20px;
-		font-size: 20px;
+		font-size: 24px;
 		position: absolute;
 		bottom: 0px;
 
@@ -858,34 +865,34 @@ ul {
 }
 
 .btn-categories {
-	background-color: $light-blue;
-	border-color: $light-blue;
-	color: $white;
+	background-color: $darker;
+	border-color: $dark;
+	color: $light;
 	&:hover {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $dark;
+		border-color: $dark;
 		color: $white;
 	}
 	&:active {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $medium;
+		border-color: $dark;
 		color: $white;
 	}
 	&:focus {
-		background-color: $dark-blue;
-		border-color: $dark-blue;
+		background-color: $medium;
+		border-color: $dark;
 		color: $white;
 	}
 }
 
 .dropdown-menu {
-	background-color: $light-blue;
+	background-color: $dark;
 	color: $white;
 	> li > a {
-		background-color: $light-blue;
+		background-color: $medium;
 		color: $white;
 		&:hover {
-			background-color: $dark-blue;
+			background-color: $light-medium;
 			color: $white;
 		}
 	}

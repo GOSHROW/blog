@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap);
 /* Colours */
 /* Responsive sizes */
 /* Globals */
@@ -12,9 +13,9 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  background-color: #2D2D29;
-  color: #FFFFFF;
-  font-size: 16px;
+  background-image: linear-gradient(to right, black, #21211E, black, #21211E, black);
+  color: #ECECEC;
+  font-size: 18px;
   height: 100%;
   width: 100%; }
 
@@ -48,6 +49,7 @@ ul {
   clear: both; }
 
 .header {
+  font-family: 'Red Rose', cursive;
   font-size: 32px;
   text-align: center;
   margin-top: 20px;
@@ -55,12 +57,17 @@ ul {
   width: 100%; }
   @media (min-width: 768px) {
     .header {
+      margin-top: 0px;
       font-size: 62px;
       margin-left: -10%;
       width: 120%; } }
+  @media (min-width: 992px) {
+    .header {
+      font-size: 60px;
+      margin-top: -20px; } }
 
 .menu-button {
-  color: #FFFFFF;
+  color: #969696;
   font-size: 24px;
   position: fixed;
   top: 10px;
@@ -68,7 +75,7 @@ ul {
   cursor: pointer;
   line-height: 1em;
   padding: 10px;
-  background-color: #2D2D29;
+  background-color: #21211E;
   z-index: 100; }
   @media (min-width: 768px) {
     .menu-button {
@@ -76,23 +83,23 @@ ul {
       left: 40px; } }
 
 .content-panel {
-  background-color: #3B3B35;
+  background-color: #073642;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 30px;
   margin-top: 20px;
   box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-  border-bottom: 5px solid #3CA2A2; }
+  border-bottom: 5px solid #3c6562; }
 
 #my-menu p {
   margin-bottom: 5px; }
 #my-menu a, #my-menu a:active {
-  color: #FFFFFF; }
+  color: #ECECEC; }
 #my-menu a:hover {
-  color: #3CA2A2; }
+  color: #969696; }
 #my-menu .pages .fa {
-  margin-right: 10px; }
+  margin-right: 5px; }
 
 .links {
   margin-top: 50px;
@@ -154,12 +161,12 @@ ul {
         margin-left: -10%;
         width: 120%; } }
   .index .categories {
-    font-size: 22px; }
+    font-size: 24px; }
   .index .content-panel:nth-of-type(1) {
-    border-bottom: 10px solid #3CA2A2; }
+    border-bottom: 10px solid #3c6562; }
   .index .author-header {
-    font-family: 'Montserrat', sans-serif;
-    color: #3CA2A2;
+    font-family: 'Red Rose', cursive;
+    color: white;
     margin-top: 0px;
     padding-top: 15px;
     font-size: 30px; }
@@ -222,7 +229,7 @@ ul {
   .index .menu {
     margin-top: 250px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 24px;
     position: absolute;
     bottom: 0px; }
     .index .menu a, .index .menu a:active {
@@ -484,7 +491,7 @@ ul {
     .related .title a {
       color: #FFFFFF; }
     .related .title a:hover {
-      color: #DFECE6; }
+      color: #ECECEC; }
   .related p {
     margin-bottom: 0px; }
   .related .previous-next {
@@ -492,7 +499,7 @@ ul {
     .related .previous-next a {
       color: #FFFFFF; }
     .related .previous-next a:hover {
-      color: #DFECE6; }
+      color: #ECECEC; }
   .related .next {
     float: right;
     text-align: right; }
@@ -537,30 +544,30 @@ ul {
     margin-bottom: 20px; }
 
 .btn-categories {
-  background-color: #3CA2A2;
-  border-color: #3CA2A2;
-  color: #FFFFFF; }
+  background-color: #21211E;
+  border-color: #2D2D29;
+  color: #ECECEC; }
   .btn-categories:hover {
-    background-color: #215A6D;
-    border-color: #215A6D;
+    background-color: #2D2D29;
+    border-color: #2D2D29;
     color: #FFFFFF; }
   .btn-categories:active {
-    background-color: #215A6D;
-    border-color: #215A6D;
+    background-color: #073642;
+    border-color: #2D2D29;
     color: #FFFFFF; }
   .btn-categories:focus {
-    background-color: #215A6D;
-    border-color: #215A6D;
+    background-color: #073642;
+    border-color: #2D2D29;
     color: #FFFFFF; }
 
 .dropdown-menu {
-  background-color: #3CA2A2;
+  background-color: #2D2D29;
   color: #FFFFFF; }
   .dropdown-menu > li > a {
-    background-color: #3CA2A2;
+    background-color: #073642;
     color: #FFFFFF; }
     .dropdown-menu > li > a:hover {
-      background-color: #215A6D;
+      background-color: #969696;
       color: #FFFFFF; }
 
 table {

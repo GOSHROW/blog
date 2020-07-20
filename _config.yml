@@ -3,12 +3,12 @@ host: 0.0.0.0
 safe: false
 permalink: /:title
 # Site settings
-title: "Goshrow - Blog"
+title: "GOSHROW"
 email: goshrow@gmail.com
-description: "Blog Posts by GOSHROW"
+description: "Blog Posts by Swapnil Ghosh"
 url: "https://goshrow.github.io/blog/"
 keywords: "Blog, GOSHROW, github, goshrow, blog, tech, code"
-title_description: "What I Learnt Today. "
+title_description: "What I Learnt Today. &nbsp;&nbsp; &lceil;&bull;&bumpE;&bull;&rceil;"
 title_image: "https://avatars2.githubusercontent.com/u/46024363?s=460&u=603841eb55caa2391882da5d4923ca35827b40bb&v=4"
 # google_analytics: 
 # disqus_account: 
